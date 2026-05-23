@@ -1,20 +1,72 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# FrameFlow - OS Optimization Utility
 
-# Run and deploy your AI Studio app
+A beautifully crafted, modern utility designed to guide Windows gamers and professionals through OS alignment, registry tuning, latency diagnostics, and power scheme deployment.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/7dd7c1f5-4f34-4e29-bba8-98c7c0ab31c7
+## 🚀 Local Installation Guide
 
-## Run Locally
+To run this application locally on your computer, follow these simple steps:
 
-**Prerequisites:**  Node.js
+### 1. Prerequisites
+Ensure you have [Node.js](https://nodejs.org/) installed on your machine. We recommend using the LTS version (Node 18+).
 
+### 2. Download or Clone the Repository
+If you downloaded this project as a ZIP file, extract it to a directory of your choice. If you exported it to GitHub, clone it in your terminal:
+```bash
+git clone <your-repository-url>
+cd <project-directory>
+```
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 3. Install Dependencies
+Initialize and install the necessary npm packages by running:
+```bash
+npm install
+```
+
+### 4. Configure Your Environment Variables
+The application utilizes environment configurations. Create a file named `.env.local` or `.env` in the root directory (the same folder as `package.json`).
+
+Copy the template from `.env.example` or paste the following into your `.env.local` file:
+```env
+# Your Gemini API Key for running AI features
+GEMINI_API_KEY="your_actual_gemini_api_key_here"
+
+# The local development URL
+APP_URL="http://localhost:3000"
+```
+
+> **How to get a Gemini API Key:** 
+> Go to the [Google AI Studio Secrets Panel](https://aistudio.google.com/) or the developer console, generate an API key, and paste it here.
+
+### 5. Launch the Development Server
+Run the local dev server:
+```bash
+npm run dev
+```
+
+Once started, open your browser and navigate to the local host address:
+- **URL**: [http://localhost:3000](http://localhost:3000)
+
+---
+
+## 🛠️ Project Technical Stack
+
+- **Framework**: [React](https://react.dev/) 19 (TypeScript)
+- **Bundler & Fast HMR**: [Vite](https://vite.dev/) 6
+- **Styles**: [Tailwind CSS](https://tailwindcss.com/) v4
+- **Animations**: [Motion](https://motion.dev/) (formerly Framer Motion)
+- **Icons**: [Lucide React](https://lucide.dev/)
+
+---
+
+## 📂 Codebase Directory Outline
+
+- `src/App.tsx` - The core application shell containing the layout and main view router.
+- `src/components/` - High-fidelity subcomponents:
+  - `Optimizations` (TweakManager) - Interactive toggles for OS parameters.
+  - `Overclocker` (AdvancedTweaks) - Controls for thread states and hardware parameters.
+  - `PowerPlan` - Windows custom power scheme registry deployment instructions.
+  - `Performance Details` (TelemetryDashboard) - Interactive monitoring simulations.
+  - `Latency Diagnostic` - Simulated network & interrupt testing utility.
+  - `FPS Calculator` - Real-time competitive FPS predictor metrics.
