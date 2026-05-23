@@ -2,32 +2,23 @@
 
 A beautifully crafted, modern utility designed to guide Windows gamers and professionals through OS alignment, registry tuning, latency diagnostics, and power scheme deployment.
 
-<p align="center">
-  <a href="https://github.com/christian-zeigler101013/FrameFlow/archive/refs/heads/main.zip">
-    <img src="https://img.shields.io/badge/Download_FrameFlow-Direct_ZIP_Download-0052FF?style=for-the-badge&logo=github&logoColor=white" alt="Download ZIP" height="40" />
-  </a>
-</p>
+## 📥 How to Download & Run FrameFlow
+
+Since FrameFlow is a professional web-based utility app, you can download the entire source bundle as a ZIP file and run it offline on your PC with a single click.
+
+### Step 1: Download the Web App Bundle
+1. Go to the **Settings Menu** (represented by the cog icon gear in the top-right corner of Google AI Studio).
+2. Click **Export as ZIP** (this compiles the real, latest source files directly into a download).
+3. Extract the downloaded `.zip` file into any folder on your computer.
+
+### Step 2: Run with 1-Click (`run.bat`)
+To make running FrameFlow as easy as running a native Windows launcher, we have included a **`run.bat`** script at the root:
+1. Double-click the **`run.bat`** file.
+2. The launcher will automatically verify if you have Node.js installed, download packages if needed, start the local server, and open the app in your browser at **http://localhost:3000**!
 
 ---
 
-## 📥 How to Download FrameFlow
-
-You can download and run this application on your local computer using two different methods:
-
-### Option A: Direct Download (Easiest)
-1. Click the **Download FrameFlow** badge above (or go to the **Settings Menu** in Google AI Studio and click **Export as ZIP**).
-2. Extract the downloaded `.zip` file into any folder on your computer.
-
-### Option B: Clone via GitHub
-If you have exported this project to your own GitHub repository, clone it instantly:
-```bash
-git clone <your-repository-url>
-cd <project-directory>
-```
-
----
-
-## 🚀 Local Installation Guide
+## 🚀 Manual Installation Guide (For Developers)
 
 To run this application locally on your computer, follow these simple steps:
 
