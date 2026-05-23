@@ -2,6 +2,29 @@
 
 A beautifully crafted, modern utility designed to guide Windows gamers and professionals through OS alignment, registry tuning, latency diagnostics, and power scheme deployment.
 
+<p align="center">
+  <a href="https://github.com/christian-zeigler101013/FrameFlow/archive/refs/heads/main.zip">
+    <img src="https://img.shields.io/badge/Download_FrameFlow-Direct_ZIP_Download-0052FF?style=for-the-badge&logo=github&logoColor=white" alt="Download ZIP" height="40" />
+  </a>
+</p>
+
+---
+
+## 📥 How to Download FrameFlow
+
+You can download and run this application on your local computer using two different methods:
+
+### Option A: Direct Download (Easiest)
+1. Click the **Download FrameFlow** badge above (or go to the **Settings Menu** in Google AI Studio and click **Export as ZIP**).
+2. Extract the downloaded `.zip` file into any folder on your computer.
+
+### Option B: Clone via GitHub
+If you have exported this project to your own GitHub repository, clone it instantly:
+```bash
+git clone <your-repository-url>
+cd <project-directory>
+```
+
 ---
 
 ## 🚀 Local Installation Guide
