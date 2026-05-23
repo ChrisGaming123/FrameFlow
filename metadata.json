@@ -1,0 +1,6 @@
+{
+  "name": "FrameFlow",
+  "description": "PC optimization and competitive gaming tweak manager with over 50 FPS boost adjustments and 25 latency reducing tweaks.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
